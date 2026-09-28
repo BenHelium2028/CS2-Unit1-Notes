@@ -1,10 +1,14 @@
 public class Main {
 
-   public static void main(String []args) {
+   public static void Main(String []args) {
       System.out.println("Hello World");
 
 
       System.out.println("Hellow world");
+
+
+      double gradeAvarage = 100.00;
+      System.out.println("my corrent grade is " + gradeAvarage);
    }
 }
 
