@@ -9,6 +9,8 @@ public class Main {
 
       double gradeAvarage = 100.00;
       System.out.println("my corrent grade is " + gradeAvarage);
+
+      System.out.println("My teacher \n\ always says\\ to study")
    }
 }
 
