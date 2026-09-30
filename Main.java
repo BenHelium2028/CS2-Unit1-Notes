@@ -1,6 +1,8 @@
+import java.util.Scanner;
+
 public class Main {
 
-   public static void Main(String []args) {
+   public static void main(String []args) {
       System.out.println("Hello World");
 
 
@@ -10,7 +12,23 @@ public class Main {
       double gradeAvarage = 100.00;
       System.out.println("my corrent grade is " + gradeAvarage);
 
-      System.out.println("My teacher \n\ always says\\ to study");
+      System.out.println("My teacher \n always says\\ to study");
+
+      int coolNum = 7;
+      int newNum = coolNum + 1;
+      // System.out.println(newNumb);
+      //prints 8
+
+      coolNum = coolNum + 1;
+      coolNum++;
+      // these two lines do the same thing
+      coolNum = coolNum - 1;
+      coolNum--;
+      // these two lines do the same thing
+
+
+      System.out.println("What is your favorite color?");
+      Scanner scan = new Scanner(System.in);
    }
 }
 
