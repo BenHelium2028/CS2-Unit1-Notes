@@ -92,6 +92,25 @@ public class Main {
       System.out.println("What is your favorite color?");
       Scanner scan = new Scanner(System.in);
 
+      // Compund operators
+
+      gradeAvarage = gradeAvarage + 1;
+      gradeAvarage += 1;
+      System.out.println(gradeAvarage);
+
+      gradeAvarage -= 2;
+      // woek thing
+      int score = 0;
+      System.out.println(score);
+      score ++;
+      System.out.println(score);
+      score *= 2;
+      System.out.println(score);
+      int penalty = 5;
+      score -= penalty/2;
+      System.out.println(score);
+
+
       ////////////////////
       //Avarage 3 numbers
 
